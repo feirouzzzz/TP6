@@ -1,0 +1,30 @@
+### 1️⃣ Ajouter un étudiant (POST)
+POST http://localhost:8080/students/save
+Content-Type: application/json
+
+{
+  "nom": "LACHGAR",
+  "prenom": "Mohamed",
+  "dateNaissance": "1985-09-01"
+}
+
+###
+
+### 2️⃣ Récupérer tous les étudiants (GET)
+GET http://localhost:8080/students/all
+
+###
+
+### 3️⃣ Supprimer un étudiant (DELETE)
+DELETE http://localhost:8080/students/delete/1
+
+###
+
+### 4️⃣ Compter les étudiants (GET)
+GET http://localhost:8080/students/count
+
+###
+
+### 5️⃣ Nombre d'étudiants par année (GET)
+GET http://localhost:8080/students/byYear
+
